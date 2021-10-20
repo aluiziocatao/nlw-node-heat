@@ -18,7 +18,7 @@ const io = new Server(serverHtttp, {
 });
 
 io.on("connection", (socket) => {
-    console.log(`Usuário conecetado no socket ${socket.id}`);
+    console.log(`Usuário conectado no socket ${socket.id}`);
 });
 
 app.use(express.json());
